@@ -17,6 +17,7 @@
 
   .container {
       background-color: rgba(255, 253, 253, 0.5);
+      height: 1000px;
   }
 
   p {
@@ -29,30 +30,55 @@
       margin-left: 15px
   }
 
-  #cardsDiv {
+  /* #cardsDiv {
       margin-left: 15px;
       margin-right: 15px;
       margin-bottom: 20px;
-  }
+  } */
 
   .card {
       margin-left: 15px;
       margin-right: 15px;
       border: none;
+      margin-top: 20px;
+    margin-bottom: 20px;
+     
       
   }
 
-  .card-body {
-    height: 220px;
+  .front {
+    height: 250px;
   }
-
-  .card-text {
-    height: 100px;
+  .back {
+    height: 250px;
   }
 
   #submit {
     margin-bottom: 15px;
   }
+
+
+  .flip {
+    height: 199px;
+    width: 300px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    
+}
+.flip img {
+    width: 300px;
+    height: auto;
+}
+.flip .back {
+    background:white;
+    color:black;
+    text-align: center;
+    transition-duration: 1s;
+}
+h5 {
+  text-align:center;
+  font-weight: bold;
+}
 
   @media (min-width: 768px){
     .col-md-4 {
