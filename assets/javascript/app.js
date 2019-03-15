@@ -1,9 +1,13 @@
+$('document').ready(function() {
+  
 
 $(function(){
     $(".flip").flip({
         trigger: 'hover'
     });
 });
+
+
 
 var config = {
     apiKey: "AIzaSyCH0w4RA5RZuJa7o7rqh65o29Ccxbih4dw",
@@ -46,12 +50,6 @@ var config = {
     // Change what is saved in firebase
   });
 
-//   database.ref().on("child_added", function(snapshot) {
-  
-//     var newContact = snapshot.val();
-//     name: newContact.name;
-
-//   })
   
 
-  
+  });

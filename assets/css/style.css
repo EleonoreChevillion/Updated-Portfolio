@@ -96,8 +96,18 @@ h5 {
   border:none;
 }
 
+
+#map{
+  height: 100%;
+}
+
 .footerlink {
   color: white;
+}
+
+#neoma {
+  max-width: 100%;
+  height: 50px;
 }
 
   @media (min-width: 768px){
