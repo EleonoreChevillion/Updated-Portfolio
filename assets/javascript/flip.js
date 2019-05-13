@@ -33,7 +33,7 @@
       axis: "y",
       reverse: false,
       trigger: "click",
-      speed: 900,
+      speed: 800,
       forceHeight: false,
       forceWidth: false,
       autoSize: true,
